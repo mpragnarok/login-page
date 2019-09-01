@@ -2,7 +2,7 @@
 
 This is a **Login page** demo which built up from [Alphacamp](https://tw.alphacamp.co/) semester 3 assignment.
 
-![demo](./public/img/demo.png)
+![demo-logged](./public/img/demo-logged.png)
 
 
 
