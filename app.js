@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/login', (req, res) => {
-  res.render('login', { message: '' })
+  res.render('login', { message: '', login: true })
 })
 
 app.post('/login', (req, res) => {
@@ -34,11 +34,12 @@ app.post('/login', (req, res) => {
 
   if (result !== undefined) {
     res.render('index', {
-      user: result.firstName,
+      user: result.firstName
     })
   } else {
     res.render('login', {
       email,
+
       message: 'email or password is incorrect.'
     })
   }

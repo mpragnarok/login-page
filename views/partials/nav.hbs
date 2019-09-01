@@ -1,0 +1,23 @@
+<!--Nav-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0 mb-5">
+  <div class="container">
+    <a href="/" class="navbar-brand">Homepage</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/login" class="nav-link">
+            {{#if login}}
+            <i class="fas fa-sign-in-alt"></i> Login
+            {{else}}
+            <i class="fas fa-user-times"></i>
+            Logout
+            {{/if}}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
