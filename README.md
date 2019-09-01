@@ -6,6 +6,8 @@ This is a **Login page** demo which built up from [Alphacamp](https://tw.alphaca
 
 
 
+![demo-login](./public/img/demo-login.png)
+
 ## Installing
 
 ### Git bash
